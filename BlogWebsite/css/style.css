@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    margin-top: 40px;
+    /* height: 100px; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.nav-left {
+    margin-top: 30px;
+    font-size: 40px;
+    display: flex;
+    color: #2f3031;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 25px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: #5f5e5d;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+}
+
+.content-left {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.content-right img {
+    height: 300px;
+    border-radius: 300px;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.content::after {
+    background-image: url("../img/background.svg");
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 460px;
+    background-size: cover;
+    opacity: 0.20;
+}
+
+.home-articles {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    position: relative;
+}
+
+.home-article {
+    display: flex;
+    margin: 5px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.year-box {
+    position: absolute;
+    height: 100px;
+    width: 170px;
+    right: 0px;
+    top: 25px;
+    font-size: 14px;
+}
+
+.year-box div {
+    margin: 12px 0px;
+}
+
+.home-article img {
+    width: 300px;
+    height: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    outline: none;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(32, 32, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}

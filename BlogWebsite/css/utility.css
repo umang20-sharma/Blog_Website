@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+:root {
+    --main-bg-color: #00B4CC;
+    --font1: 'Roboto', sans-serif;
+    --font2: Arial, Helvetica, sans-serif;
+    --font3: 'Anton', sans-serif;
+    --font4: 'Nunito', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.max-width-1 {
+    max-width: 85vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nav-right {
+    width: 25%;
+    position: relative;
+    display: flex;
+}
+
+.btn {
+    color: white;
+    padding: 0px 20px;
+    padding-top: 3px;
+    background-color: #00B4CC;
+    border-radius: 5px;
+    /* box-shadow: #fff; */
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.btn:hover {
+    color: white;
+    background: #00B4CC;
+}
+
+.btn2 {
+    margin-top: 25px;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form-input {
+    padding: 5px 5px;
+    padding-top: 9px;
+    font-size: 13px;
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 4px;
+    margin: 0 10px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid #00B4CC;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact-content {
+    display: block;
+    height: 550px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.form-box input,
+textarea {
+    width: 40%;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    resize: vertical;
+}
